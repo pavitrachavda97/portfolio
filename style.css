@@ -1,0 +1,154 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: bisque;
+}
+
+li a
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: bisque;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    margin: 30px;
+    border-bottom: 2px solid bisque;
+}
+
+.logo
+{
+    color: bisque;
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 30px;
+}
+.navbar
+{
+    list-style: none;
+}
+.navbar li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover
+{
+    color: rgb(212, 182, 145);
+}
+
+/* my self */
+#photo
+{
+    max-width: 80%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+#mySelf
+{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+/* projects */
+section div 
+{
+    border: 2px solid bisque;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+}
+section div a
+{
+    text-decoration: none;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+}
+section div a:hover
+{
+    background-color: rgb(212, 182, 145);
+}
+
+/* footer  */
+footer
+{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p
+{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    cursor: pointer;
+}
+.social li
+{
+    margin: 0 10px;
+}
+.social a
+{
+    text-decoration: none;
+    color: pinl;
+}
+.social a i
+{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+.social a:hover i
+{
+    color: aqua;
+}
